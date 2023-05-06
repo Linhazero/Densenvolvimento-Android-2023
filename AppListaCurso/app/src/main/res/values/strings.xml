@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">AppListaCurso</string>
-    <string name="text_titulo">Aplicativo Lista VIP Curso Android</string>
+    <string name="text_titulo">Aplicativo Lista VIP devandroid.victor.applistacurso.model.Curso Android</string>
     <string name="text_hint_edit_sobrenome">Sobrenome</string>
     <string name="text_hint_edit_primeiro_nome">Primeiro Nome</string>
-    <string name="text_hint_edit_nome_do_curso_desejado">Nome do Curso Desejado</string>
+    <string name="text_hint_edit_nome_do_curso_desejado">Nome do devandroid.victor.applistacurso.model.Curso Desejado</string>
     <string name="text_hint_edit_telefone_de_contato">Telefone de Contato</string>
     <string name="text_button_limpar">LIMPAR</string>
     <string name="text_button_salva">SALVA</string>
