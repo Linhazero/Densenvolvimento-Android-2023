@@ -3,6 +3,7 @@ package devandroid.victor.applistacurso.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.victor.applistacurso.R;
 import devandroid.victor.applistacurso.model.Pessoa;
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += " Telefone de contato: ";
         dadosOutraPessoa += pessoa.getTelefoneContato();
 
-        int parada = 0;
+        Log.i("POOAndroid", pessoa.toString());
+        Log.i("POOAndroid", outraPessoa.toString());
     }
 }
