@@ -17,9 +17,6 @@ public class MainActivity extends AppCompatActivity {
     Pessoa pessoa;
     Pessoa outraPessoa;
 
-    String dadosPessoa;
-    String dadosOutraPessoa;
-
     EditText editPrimeiroNome;
     EditText editSobrenome;
     EditText editCursoDesejado;
@@ -35,16 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pessoa = new Pessoa();
-        //Atribuir dados e valores ao objeto
-        //Comforme o seu modelo
-       // pessoa.setPrimeiroNome("Victor");
-        //pessoa.setSobreNome("Rodrigues");
-        //pessoa.setCursoDesejado("Android");
-        //pessoa.setTelefoneContato("98-984320139");
 
         outraPessoa = new Pessoa();
-        //Atribuir dados e valores ao objeto
-        //Comforme o seu modelo
         outraPessoa.setPrimeiroNome("Oliver");
         outraPessoa.setSobreNome("Rodrigues");
         outraPessoa.setCursoDesejado("Java");
@@ -90,28 +79,10 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setCursoDesejado(editCursoDesejado.getText().toString());
                 pessoa.setTelefoneContato(editTelefone.getText().toString());
 
-                Toast.makeText(MainActivity.this, "Salvo Com Sucesso"+pessoa.toString(), Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Salvo Com Sucesso" + pessoa.toString(), Toast.LENGTH_LONG).show();
 
             }
         });
-
-      /*  dadosPessoa = "Primeiro Nome: ";
-        dadosPessoa += pessoa.getPrimeiroNome();
-        dadosPessoa += " Sobrenome: ";
-        dadosPessoa += pessoa.getSobreNome();
-        dadosPessoa += " Curso Desejado: ";
-        dadosPessoa += pessoa.getCursoDesejado();
-        dadosPessoa += " Telefone de contato: ";
-        dadosPessoa += pessoa.getTelefoneContato();
-
-        dadosOutraPessoa = "Primeiro Nome: ";
-        dadosOutraPessoa += pessoa.getPrimeiroNome();
-        dadosOutraPessoa += " Sobrenome: ";
-        dadosOutraPessoa += pessoa.getSobreNome();
-        dadosOutraPessoa += " Curso Desejado: ";
-        dadosOutraPessoa += pessoa.getCursoDesejado();
-        dadosOutraPessoa += " Telefone de contato: ";
-        dadosOutraPessoa += pessoa.getTelefoneContato();*/
 
         Log.i("POOAndroid", pessoa.toString());
         Log.i("POOAndroid", outraPessoa.toString());
